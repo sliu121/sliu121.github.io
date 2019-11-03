@@ -38,7 +38,7 @@ BackGround();
 var timer = setInterval(BackGround, 5000);
 
 
-/*工具块*/
+/*Tools*/
 $(".two-nr-box").click(function(event) {
     event.stopPropagation();
     if ($(".xsyc").length == 0) {
@@ -52,7 +52,7 @@ $(".two-nr-box").click(function(event) {
     }
 
 });
-/*百分比显示*/
+/*Show in percents*/
 /*
  * Raphael 1.5.2 - JavaScript Vector Library
  *
