@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>万丰国际首页</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index2.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-scrolltofixed-min.js"></script>
+    <script src="js/jquery.vegas.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Slideshow Background  -->
+    <script>
+        $.vegas('slideshow', {
+            delay: 5000,
+            backgrounds: [
+                {src: './img/1.jpg', fade: 2000},
+                {src: './img/2.jpg', fade: 2000},
+                {src: './img/3.jpg', fade: 2000},
+                {src: './img/4.jpg', fade: 2000},
+                {src: './img/1.jpg', fade: 2000},
+                {src: './img/2.jpg', fade: 2000},
+                {src: './img/3.jpg', fade: 2000},
+                {src: './img/4.jpg', fade: 2000}
+
+            ]
+        })('overlay', {
+            src: './img/overlay.png'
+        });
+
+    </script>
+    <!-- /Slideshow Background -->
+
+    <!-- Mixitup : Grid -->
+    <script>
+        $(function () {
+            $('#Grid').mixitup();
+        });
+    </script>
+    <!-- /Mixitup : Grid -->
+
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                        || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- Navbar -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav').scrollToFixed();
+        });
+    </script>
+    <!-- /Navbar-->
+
+
+    <script>
+        $(function () {
+            $('#close_im').bind('click', function () {
+                $('#main-im').css("height", "0");
+                $('#im_main').hide();
+                $('#open_im').show();
+            });
+            $('#open_im').bind('click', function (e) {
+                $('#main-im').css("height", "272");
+                $('#im_main').show();
+                $(this).hide();
+            });
+            $('.go-top').bind('click', function () {
+                $(window).scrollTop(0);
+            });
+            $(".weixing-container").bind('mouseenter', function () {
+                $('.weixing-show').show();
+            })
+            $(".weixing-container").bind('mouseleave', function () {
+                $('.weixing-show').hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<!-- 代码部分 begin -->
+<div class="main-im">
+    <div id="open_im" class="open-im">&nbsp;</div>
+    <div class="im_main" id="im_main">
+        <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=406528872&site=qq&menu=yes" target="_blank" class="im-qq qq-a"
+           title="在线QQ客服">
+            <div class="qq-container"></div>
+            <div class="qq-hover-c"><img class="img-qq" src="img/qq.png"></div>
+            <span> QQ在线咨询</span>
+        </a>
+
+        <div class="im-tel">
+            <div>咨询电话</div>
+            <div class="tel-num">0351-2590867</div>
+            <div>联系人</div>
+            <div class="tel-num">苏先生</div>
+        </div>
+        <div class="im-footer" style="position:relative">
+            <div class="weixing-container">
+                <div class="weixing-show">
+                    <div class="weixing-txt">微信扫一扫<br>打开万丰国际</div>
+                    <img class="weixing-ma" src="img/wx.jpg">
+
+                    <div class="weixing-sanjiao"></div>
+                    <div class="weixing-sanjiao-big"></div>
+                </div>
+            </div>
+            <div class="go-top"><a href="#" title="返回顶部"></a></div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+<!-- 代码部分 end-->
+
+
+<!-- Header Area -->
+<div id="top" class="header">
+    <div class="vert-text">
+        <div class="header-one">
+            <a href="#"><img class="logo" alt="万丰国际旅行社" title="返回首页" src="img/logo.png"/></a>
+
+            <div class="ss">
+                <input type="text" class="ss-text" placeholder="上海迪士尼乐园"/>
+                <input type="button" class="ss-button"/>
+            </div>
+        </div>
+        <div class="lmu">
+            <div class="lmu-list lmu-list1">
+                <a href="#">
+                    <img src="img/lmu1.png"/>
+
+                    <p>主题游</p>
+                </a>
+            </div>
+            <div class="lmu-list lmu-list2">
+                <a href="#">
+                    <img src="img/lmu2.png"/>
+
+                    <p>省内周边</p>
+                </a>
+            </div>
+            <div class="lmu-list lmu-list3">
+                <a href="#">
+                    <img src="img/lmu3.png"/>
+
+                    <p>国内旅游</p>
+                </a>
+            </div>
+            <div class="lmu-list lmu-list4">
+                <a href="#">
+                    <img src="img/lmu4.png"/>
+
+                    <p>出境旅游</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Header Area -->
+<div id="nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-new" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">万丰旅行</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mobilemenu">
+
+                <ul class="nav navbar-nav navbar-right text-center">
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">主题游</a></li>
+                    <li><a href="#">省内周边</a></li>
+                    <li><a href="#">国内旅游</a></li>
+                    <li><a href="#">出境旅游</a></li>
+                    <li><a href="#">签证</a></li>
+                    <li><a href="#">旅游攻略</a></li>
+                    <li><a href="#">新闻中心</a></li>
+                    <li><a href="#">在线留言</a></li>
+                    <li><a href="#">加入我们</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <!-- /Navigation -->
+</div>
+<!-- About -->
+<div id="about" class="about_us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h2 class="gywm-name">关于我们</h2>
+
+                <p class="lead">
+                    万丰国际旅行社（简称“万丰国旅”）成立于2015年4月，注册资金500万元整，同年万丰国际旅行社创立同业品牌“云假期同业中心”，开展同业中心业务。另我公司与山西万景国际旅行社有限公司（简称“万景国旅”）常年战略合作，并为万景国旅太原客户中心...</p>
+
+                <div class="gywm-more"><a href="#">MORE>></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /About -->
+<!-- Services -->
+<div id="services" class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <h2>公司风采</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="service-item">
+                    <i class="service-icon fa fa-camera-retro fa-3x"></i>
+
+                    <h3>最新优惠</h3>
+
+                    <div class="xw">
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                    </div>
+                    <div class="xw"><a href="#">MORE>></a></div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-item">
+                    <i class="service-icon fa fa-camera fa-3x"></i>
+
+                    <h3>新闻中心</h3>
+
+                    <div class="xw">
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                    </div>
+                    <div class="xw"><a href="#">MORE>></a></div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-item">
+                    <i class="service-icon fa fa-camera fa-3x"></i>
+
+                    <h3>新闻中心</h3>
+
+                    <div class="xw">
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                        <div class="xw-list">
+                            <span></span>
+                            <a href="#">旅游贴士旅游贴士旅游贴士旅游贴士旅游贴...</a>
+                        </div>
+                    </div>
+                    <div class="xw"><a href="#">MORE>></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Services -->
+
+<!-- Portfolio -->
+<div id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row push50">
+            <div class="col-md-5 col-md-offset-40 text-center">
+                <h2>欢乐畅玩</h2>
+
+                <h3>
+                    <span class="filter label label-default" data-filter="all">全部</span>
+                    <span class="filter label label-default" data-filter="you1">主题游</span>
+                    <span class="filter label label-default" data-filter="you2">省内周边</span>
+                    <span class="filter label label-default" data-filter="you3">国内旅游</span>
+                    <span class="filter label label-default" data-filter="you4">出境旅游</span>
+                </h3>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="gallery">
+
+                <ul id="Grid" class="gcontainer">
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you1">
+                        <a class="mix-cover" href="neiye.html">
+                            <img class="horizontal" src="img/1.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">黄口瀑布</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you2">
+                        <a class="mix-cover">
+                            <img class="horizontal" src="img/2.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">晋祠公园</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you1">
+                        <a class="mix-cover">
+                            <img class="horizontal" src="img/3.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span class="title">五台山</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you3">
+                        <a class="mix-cover">
+                            <img class="horizontal" src="img/4.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">黄河第一楼</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you4">
+                        <a class="mix-cover">
+                            <img class="horizontal" src="img/1.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">黄口瀑布</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you3">
+                        <a class="mix-cover">
+                            <img class="horizontal" src="img/2.jpg" alt="placeholder">
+                            <span class="overlay"><span class="valign"></span><span class="title">晋祠</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you1">
+                        <a class="mix-cover">
+                            <img class="vertical" src="img/3.jpg" alt="portrait 4">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">五台山</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you3">
+                        <a class="mix-cover">
+                            <img class="vertical" src="img/4.jpg" alt="Forest">
+                            <span class="overlay"><span class="valign"></span><span class="title">天下第一楼</span></span>
+                        </a>
+                    </li>
+                    <li class="col-md-4 col-sm-4 col-xs-12 mix you1">
+                        <a class="mix-cover">
+                            <img class="vertical" src="img/1.jpg" alt="Black and White">
+                            <span class="overlay"><span class="valign"></span><span
+                                    class="title">壶口瀑布</span></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Load Photo in Modal -->
+                <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Portrait 1</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="Portrait1" src="img/portrait1.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="portrait2" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Portrait 2</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="Portrait1" src="img/portrait2.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Portrait 3</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="Portrait1" src="img/portrait3.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="portrait4" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Portrait 4</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="Portrait1" src="img/portrait4.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="portrait5" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Portrait 5</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="Portrait1" src="img/portrait5.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="nature" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Nature</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="nature" src="img/nature.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Nature 1</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+
+                <div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Forest</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="forest" src="img/forest.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title text-center">Black and White</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="thumbnail" alt="forest" src="img/bw1.jpg"/>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+
+                <!-- /Load Photo in Modal -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Portfolio -->
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <h2>联系我们</h2>
+                <hr>
+            </div>
+            <div class="col-md-5 col-md-offset-3">
+                <!-- contact form starts -->
+                <form action="contact" id="contact-form" class="form-horizontal">
+                    <fieldset>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="name">姓名 YOU NAME</label>
+
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="姓名" class="form-control" name="name" id="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="email">邮箱 EMAIL</label>
+
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="输入您的邮箱" class="form-control" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="subject">联系电话 NUMBER</label>
+
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="联系电话" class="form-control" name="subject" id="subject">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="message">您的意见 YOU MESSAGE</label>
+
+                            <div class="col-sm-8">
+                                <textarea placeholder="您对我们的建议..." class="form-control" name="message" id="message"
+                                          rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-4 col-sm-8">
+                            <button type="submit" class="btn btn-success">提交</button>
+                            <button type="reset" class="btn btn-primary">重置</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <!-- contact form ends -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Contact -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                友情链接：<a href="#">万丰国际旅行</a><br/>
+                &copy; 2016 万丰国际旅行社 Corporation. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;晋ICP备********号-1&nbsp;&nbsp;&nbsp;&nbsp;技术支持：商机互联
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /Footer -->
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+#gmy{
+width:570px;
+height:750px;
+border:1px solid #aaa;
+margin:10px auto;
+box-shadow:0px 0px 3px 3px #ddd inset;
+padding:20px 15px;
+}
+#gmy input{
+border:1px solid #ddd;
+}
+#gmy img{
+margin-bottom:10px;
+}
+/*充值TOP*/
+#gmy>p>s{
+width:112px;
+height:33px;
+background:url(../images/ngmds.png);
+float:left;
+}
+#gmy>p>a.rt{
+height:25px;
+color:red;
+line-height:25px;
+}
+#name_a{
+float:left;
+width:448px;
+background:#eee;
+height:33px;
+line-height:33px;
+padding-left:10px;
+}
+/*充值一卡通的卡号 密码 张数*/
+#yikatong{
+background:#f6ffea;
+}
+#yikatong div.yikatong_top{
+text-align:center;
+border-bottom:1px dashed red;
+height:30px;
+line-height:30px;
+}
+#yikatong div.yikatong_top b{
+color:#f25f2b;
+}
+#yikatong div.yikatong_bottom{
+padding-bottom:20px;
+}
+#yikatong div.yikatong_bottom p{
+text-align:center;
+line-height:35px;
+}
+#yikatong div.yikatong_bottom p label{
+color:#308008;
+font-weight:bold;
+}
+#yikatong div.yikatong_bottom p input{
+margin:0 20px;
+}
+#yikatong div.yikatong_bottom p a{
+display:inline-block;
+}
+#yikatong  a.a1{
+width:90px;
+text-align:right;
+}
+/*充值QB的数量和QQ号*/
+#czqb>div{
+margin:10px auto;
+margin-right:20px;
+}
+#czqb>div>a{
+float:left;
+line-height:120px;
+margin-right:20px;
+margin-left:70px;
+width:109px;
+text-align:right;
+}
+#czqb>div>ul{
+float:left;
+width:190px;
+}
+#czqb>div>ul>li{
+float:left;
+margin:5px 0;
+margin-right:5px;
+
+}
+#czqb>p{
+line-height:35px;
+}
+
+#czqb>p>a.a1{
+float:left;
+margin-left:70px;
+margin-right:20px;
+width:109px;
+text-align:right;
+}
+/*底部 按钮 注意*/
+#gmy_bottom{
+border-top:1px dashed red;
+margin-top:80px;
+}
+#gmy_bottom>div{
+text-align:center;
+margin:20px 0;
+}
+#gmy_bottom button{
+width:108px;
+height:30px;
+text-align:center;
+background:url(../images/but_hover_bj.png);
+margin:0 15px;
+}
+#gmy_bottom button:hover{
+background:url(../images/but_bj.png);
+}
+#gmy_bottom p{
+color:red;
+}
+#gmy_bottom p a{
+color:#070ab9;
+}

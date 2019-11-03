@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>万丰国际内页</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index2.css" rel="stylesheet">
+	<!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	
+	
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+         auto: true,
+		 nav: true,
+		 speed: 500,
+		 namespace: "callbacks",
+      });
+    });
+  </script>
+  <!--banner-->
+
+<script>
+$(function(){
+
+$(window).scroll(function(){
+var s=$(window).scrollTop();
+if(s>$('#top').outerHeight()-$('#nav').outerHeight()){
+$("#nav").css({"marginTop":"0px","position":"fixed"});
+};
+if(s<=$('#top').outerHeight()-$('#nav').outerHeight()){
+$("#nav").css({"marginTop":"-52px","position":"static"});
+};
+});
+
+});
+</script>
+	
+<script>
+$(function(){
+	$('#close_im').bind('click',function(){
+		$('#main-im').css("height","0");
+		$('#im_main').hide();
+		$('#open_im').show();
+	});
+	$('#open_im').bind('click',function(e){
+		$('#main-im').css("height","272");
+		$('#im_main').show();
+		$(this).hide();
+	});
+	$('.go-top').bind('click',function(){
+		$(window).scrollTop(0);
+	});
+	$(".weixing-container").bind('mouseenter',function(){
+		$('.weixing-show').show();
+	})
+	$(".weixing-container").bind('mouseleave',function(){        
+		$('.weixing-show').hide();
+	});
+});
+</script>
+
+
+<style>
+.header{
+height:auto;
+}
+#nav{
+margin-top:-52px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 代码部分 begin -->
+<div class="main-im">
+	<div id="open_im" class="open-im">&nbsp;</div>  
+	<div class="im_main" id="im_main">
+		<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=406528872&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+			<div class="qq-container"></div>
+			<div class="qq-hover-c"><img class="img-qq" src="img/qq.png"></div>
+			<span> QQ在线咨询</span>
+		</a>
+		<div class="im-tel">
+			<div>咨询电话</div>
+			<div class="tel-num">0351-2590867</div>
+			<div>联系人</div>
+			<div class="tel-num">苏先生</div>
+		</div>
+		<div class="im-footer" style="position:relative">
+			<div class="weixing-container">
+				<div class="weixing-show">
+					<div class="weixing-txt">微信扫一扫<br>打开万丰国际</div>
+					<img class="weixing-ma" src="img/wx.jpg">
+					<div class="weixing-sanjiao"></div>
+					<div class="weixing-sanjiao-big"></div>
+				</div>
+			</div>
+			<div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+</div>
+<!-- 代码部分 end-->
+
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+	  
+		<!--banner开始-->
+		<div class="banner">
+			<div class="slider">
+				<ul class="rslides" id="slider1">
+				  <li><img src="img/banner1.jpg" alt=""></li>
+				  <li><img src="img/banner1.jpg" alt=""></li>
+				  <li><img src="img/banner1.jpg" alt=""></li>
+				</ul>
+			</div>
+		 </div>
+		<!--banner结束-->	  
+	  
+		<div class="header-one">
+			<a href="javascript:;"><img class="logo" alt="万丰国际旅行社" title="返回首页" src="img/logo.png" /></a>
+			<div class="ss">
+				<input type="text" class="ss-text" placeholder="上海迪士尼乐园"/>
+				<input type="button" class="ss-button"/>
+			</div>
+		</div>	
+		
+	  </div>
+    </div>
+    <!-- /Header Area -->
+	
+		<div id="nav">
+			<!-- Navigation -->
+			<nav class="navbar navbar-new" role="navigation">
+		   <div class="container">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a href="javascript:;" class="navbar-brand">万丰旅行</a>
+		  </div>
+		  <div class="collapse navbar-collapse" id="mobilemenu">
+
+			  <ul class="nav navbar-nav navbar-right text-center">                                           
+				<li><a href="javascript:;">关于我们</a></li>
+				<li><a href="javascript:;">主题游</a></li>
+				<li><a href="javascript:;">省内周边</a></li>
+				<li><a href="javascript:;">国内旅游</a></li>
+				<li><a href="javascript:;">出境旅游</a></li>
+				<li><a href="javascript:;">签证</a></li>
+				<li><a href="javascript:;">旅游攻略</a></li>
+				<li><a href="javascript:;">新闻中心</a></li>
+				<li><a href="javascript:;">在线留言</a></li>
+				<li><a href="javascript:;">加入我们</a></li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+		  </div>
+		</nav>
+			<!-- /Navigation -->
+		</div>
+
+<!--内页开始-->
+<div class="ny">
+	<div class="ny-con">
+		<!--左侧开始-->
+		<div class="ny-left">
+			<div class="ny-left-box">
+				<img src="img/left1.png" class="left1"/>
+				<img src="img/left-name.png" class="left-name"/>
+				<div class="ny-left-name">万丰国旅<span>主题游</span></div>
+				<img src="img/left6.png" class="left6"/>
+				<div class="ny-nav">
+					<div class="ny-nav-list"><a href="javascript:;">浪漫新婚蜜月游</a></div>
+					<div class="ny-nav-list"><a href="javascript:;">温情舒心亲子游</a></div>
+					<div class="ny-nav-list"><a href="javascript:;">活泼热情夏令营</a></div>
+					<div class="ny-nav-list"><a href="javascript:;">最美不过夕阳红</a></div>
+				</div>
+				<img src="img/left4.png" class="left4"/>
+			</div>
+			<div class="ny-left-box">
+				<img src="img/left5.png" class="left5"/>
+				<img src="img/left-name.png" class="left-name"/>
+				<div class="ny-lxwm">
+					<p>万丰国际旅行社有限公司</p>
+					联系电话：0351-2590867<br/>
+联系人：苏先生<br/>
+地址：太原市南内环街赛格<br/>
+商务楼17层<br/>
+热线QQ：834232737<br/>
+微信公众号：万丰国旅
+				</div>
+				<img src="img/left3.png" class="left3"/>
+			</div>
+		</div>
+		<!--左侧结束-->
+		<!--右侧开始-->
+		<div class="ny-right">
+			<div class="ssdh">
+				<img src="img/right3.png" class="right3"/>您现在的位置：<a href="javascript:;">首页</a>><a href="javascript:;">主题游</a>
+			</div>
+			<div class="ny-right-top"><img src="img/right1.png" class="right1"/></div>
+			<div class="ny-right-con">
+			
+			</div>
+		</div>
+		<!--右侧结束-->
+	</div>
+</div>
+<!--内页结束-->
+	
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+           友情链接：<a href="javascript:;">万丰国际旅行</a><br/>
+&copy; 2016 万丰国际旅行社 Corporation. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;晋ICP备********号-1&nbsp;&nbsp;&nbsp;&nbsp;技术支持：商机互联
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+  </body>
+
+</html>

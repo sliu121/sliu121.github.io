@@ -1,0 +1,26 @@
+﻿body,p,ul,li,ol,dl,dd,dt,h1,h2,h3,h4,h5,h6,input,form{
+padding:0;
+margin:0;
+list-style:none;
+}
+body{
+background:#fff;
+font-family:"SimSun";
+}
+a{
+transition: 0.3s;
+	-moz-transition: 0.3s;	/* Firefox 4 */
+	-webkit-transition: 0.3s;	/* Safari Chrome */
+	-o-transition: 0.3s;	/* Opera */
+text-decoration:none;
+}
+img{
+border:0;
+}
+div:befor{
+	content: "";
+	display:block;
+	clear:both;
+}
+.rt{float:right;}
+.lf{float:left;}

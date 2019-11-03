@@ -1,0 +1,90 @@
+.articl{
+	color:#666666;
+	line-height: 20px;
+	height: 20px;
+	width: 450px;
+	float: left;
+	padding-left: 10px;
+}
+#article{margin-top: 5px;height: 20px;text-indent:0em;width:95%;padding:0px 2.5%;}
+#article a{color: #333;  text-decoration: none;}
+#article a:hover{color: #e61526;}
+#articlev{color:#FFFFFF;background-color: #ff9900;line-height: 20px;height: 20px;width: 50px;float: left;text-align: center;}
+#articlec{color:#FFFFFF;background-color: #4db2ec;line-height: 20px;height: 20px;width: 50px;float: left;text-align: center;}
+
+
+
+/*内页产品开始*/
+.ny-cp{
+width:100%;
+height:auto;
+overflow:hidden;
+text-indent:0em;
+}
+.ny-cp-list{
+width:30%;
+height:250px;
+float:left;
+margin:0px 1.5% 20px;
+position:relative;
+overflow:hidden;
+}
+.ny-cp-list img{
+width:100%;
+height:100%;
+}
+.ny-cp-list p{
+width:100%;
+height:40px;
+background-image:url(../img/tming2.png);
+position:absolute;
+top:110%;
+margin-top:-20px;
+left:0px;
+text-align:Center;
+line-height:40px;
+font-family: "microsoft yahei";
+font-size: 18px;
+color: #000;
+}
+/*内页产品结束*/
+
+/*内页新闻中心开始*/
+.ny-xwzx{
+width:100%;
+height:auto;
+overflow:hidden;
+}
+.ny-xwzx-list{
+width:85%;
+height:70px;
+padding:10px 5%;
+border-bottom:1px dotted #e974a1;
+margin:0px auto;
+}
+.ny-xwzx-list a{
+width:100%;
+height:100%;
+display:block;
+font-family: "microsoft yahei";
+color:#272626;
+}
+.ny-xwzx-list a:hover{
+color:#e60012;
+}
+.ny-xwzx-list b{
+width:100%;
+height:30px;
+line-height:30px;
+display:block;
+font-size:14px;
+text-indent: 0em;
+font-family: microsoft yahei;
+}
+.ny-xwzx-list p{
+width:100%;
+height:40px;
+line-height:20px;
+font-size:12px;
+}
+/*内页新闻中心结束*/
