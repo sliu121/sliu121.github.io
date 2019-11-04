@@ -26,6 +26,11 @@ var PicIndex = 1;
 function BackGround() {
     var newurl = "url(img/banner2" + PicIndex + ".jpg)";
     $("#list-one").animate({ opacity: "0" }, 500);
+    // for (var i = 100; i > 0; i - 5) {
+    //     var str = 1 - i / 100;
+    //     var indexc = str.toString();
+    //     $("#list-one").animate({ opacity: index }, 200);
+    // }
 
     $("#list-one").animate({ opacity: "1" }, 500);
     $("#list-one").css("background-image", newurl);
@@ -2924,7 +2929,7 @@ var o = {
 $(function() { o.init(); });
 
 
-/*获取鼠标滚动事件*/
+/*rolling*/
 ! function t(e, n, o) {
     function r(i, c) {
         if (!n[i]) {
