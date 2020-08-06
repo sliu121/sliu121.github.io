@@ -1,26 +1,3 @@
-let picStr = "picture0";
-
-function PicClick(number) {
-    document.getElementById(picStr).style.display = 'none';
-    let str = "picture" + number;
-    document.getElementById(str).style.display = 'block';
-    picStr = str;
-}
-
-const mainShow = "timeLine";
-let showStr = "timeLine"
-
-function showMore(string) {
-    document.getElementsByClassName(mainShow)[0].style.display = 'none' ;
-    showStr = string;
-    document.getElementsByClassName(showStr)[0].style.display = 'block';
-}
-
-function showTimeline() {
-    document.getElementsByClassName(showStr)[0].style.display = 'none';
-    document.getElementsByClassName(mainShow)[0].style.display = 'block';
-}
-
 
 $(document).ready(function(){
     $('.skills-logos').slick({
@@ -56,3 +33,29 @@ function changeColor(){
     }
 }
 
+
+isRunning = false
+function showMore(){
+    if(this.isRunning) {
+        console.log("it is processing");
+    }else{
+        console.log("it starts processing");
+        this.isRunning = true;
+        var x=document.getElementById('general').innerText;
+        document.getElementById("general").innerHTML = "";
+        printLetterByLetter("general", x , 80, isRunning);
+        console.log("process is over")
+    }
+}
+
+function printLetterByLetter(destination, message, speed, isRunning){
+    var i = 0;
+    var interval = setInterval(function(){
+        document.getElementById(destination).innerHTML += message.charAt(i);
+        i++;
+        if (i > message.length){
+            this.isRunning = false
+            clearInterval(interval);
+        }
+    }, speed);
+}
