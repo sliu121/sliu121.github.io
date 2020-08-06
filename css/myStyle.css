@@ -1,0 +1,448 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background: #f3f3e3;
+}
+p{
+    font-size: 25px;
+}
+body div{
+    overflow: no-display;
+}
+
+/* Header CSS starts*/
+#header{
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Exo 2',serif;
+    background: #383838;
+}
+img{
+    border: none;
+}
+#logo {
+    width: 84px;
+    height: 84px;
+    background-color: #383838;
+    float: left;
+    text-align: left;
+}
+
+#logo a {
+    text-align: left;
+
+    display: block;
+    width: 222px;
+    height: 40px;
+}
+
+#logo a img {
+    text-align: right;
+    display: block;
+
+}
+#nav {
+    width: 954px;
+    height: 84px;
+    float: left;
+    background: #383838;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+}
+
+#nav li a {
+    display: block;
+    padding: 0 20px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color: #c8c8c8;
+    /*font-size: 24px;*/
+
+}
+/*Header CSS ends*/
+
+/*Banner CSS starts*/
+.About_me{
+    padding-top:100px;
+    width: auto;
+    height: 800px;
+    background-color: #322d2d;
+    background-image: url('../img/bannerBG_1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /*min-height: 500px;*/
+}
+
+.About_me h1{
+    font-family: 'Lobster', cursive;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 0;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.About_me #myName{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px ;
+    color: white;
+}
+
+#mySelfie{
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1170px;
+    height: 250px;
+    padding-right: 15px;
+    padding-left: 15px  ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.description p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7;
+    margin-top: 0px;
+}
+
+
+/*Banner CSS ends*/
+
+/*Introduce CSS starts*/
+.introduce{
+    background-color: #f3f3e3;
+    width: 70%;
+    margin: 0 auto;
+    height: 550px;
+    padding: 20px;
+}
+.title{
+    font-family: 'Recursive', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+}
+/*Introduce CSS ends*/
+
+/*Skills CSS starts*/
+.pictures{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.skill_img{
+    height: 120px;
+}
+
+.skill_img p{
+    font-family: Arial, cursive;
+    margin: 0 auto;
+    color: gray;
+}
+.skill_img img{
+    display: block;
+    float: left;
+    width: 110px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+
+#picture1, #picture2, #picture3, #picture4{
+    display: none;
+    margin:0 auto;
+}
+#picture1{
+    width: 1020px;
+}
+#picture2,#picture3 {
+    width: 850px;
+}
+#picture4{
+    width: 510px;
+}
+
+
+table{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+}
+#newTable{
+    margin: 0 auto;
+    overflow-x:auto;
+
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #999494;
+}
+/* Skills CSS ends*/
+
+/* Projects CSS starts*/
+.projects{
+    font-family: 'Recursive', sans-serif;
+}
+.row {
+    margin: 0 auto  ;
+}
+.projects{
+    height: 650px;
+}
+.col{
+
+    background: white;
+}
+.card button{
+    color: white;
+    background: deepskyblue;
+}
+.card-body{
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.card-body h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.card-body p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.modal-header h3 {
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 0;
+}
+.modal-header button{
+    width: 5%;
+    float: right;
+}
+
+.modal-body li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+/*Projects CSS ends*/
+
+/*Experience CSS starts*/
+.experience{
+    height: 650px;
+}
+
+.timeLine {
+    white-space: nowrap;
+    overflow-x: hidden;
+    display: block;
+}
+
+.timeline .plates {
+    font-size: 0;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 250px 100px;
+    transition: all 1s;
+}
+
+.timeLine ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    height: 3px;
+    background: #fff;
+}
+
+.timeLine p{
+    text-align: center;
+}
+
+.timeLine ol li:last-child {
+    width: 280px;
+}
+
+.timeLine ol li:not(:first-child) {
+    margin-left: 14px;
+}
+
+.timeLine ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #F45B69;
+}
+
+.timeLine ol li div {
+    position: absolute;
+    left: calc(100% + 7px);
+    width: 155px;
+    padding: 15px;
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: white;
+}
+
+.timeLine ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeLine .edu {
+    top: -10px;
+    transform: translateY(-100%);
+}
+
+.timeLine .edu::before{
+    top: 100%;
+    border-width: 8px 8px 0 0;
+    border-color: white transparent transparent transparent;
+}
+
+.timeLine .why {
+    top: calc(100% + 16px);
+}
+
+.timeLine .why::before {
+    top: -8px;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent white;
+}
+
+
+.timeline .details{
+    display: none;
+    background: cadetblue;
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    height: 500px;
+    padding: 20px 20px;
+}
+
+
+
+
+/*Experience CSS ends*/
+
+
+/*Footer CSS starts*/
+#footer{
+    width: 100%;
+    height: 240px;
+    background-color: #262622;
+}
+#iconArea{
+    width: 80%;
+    height: 200px   ;
+    margin: 0 auto;
+    /*background: black;*/
+}
+#footerTail{
+    width: 100%;
+    height: 40px   ;
+    background: darkgray;
+}
+#iconAppearance{
+    margin:0 auto;
+}
+
+#iconAppearance a{
+    color: white;
+}
+
+.footer-icons{
+    display: block;
+    float: left;
+    width: calc(100% / 3);
+
+    height: 200px;
+    border-right-width: 40px;
+}
+.footer-icons a{
+    margin: auto;
+}
+
+.realIcon{
+    width: auto;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.realIcon svg{
+    width: 150px;
+    height: 150px;
+    fill: #e3d6b6;
+    margin: 25px 200px;
+}
+#footerTail{
+    margin:0 auto;
+    text-align: center;
+    color: azure;
+}
+
+
+/*Footer Css ends*/
+
