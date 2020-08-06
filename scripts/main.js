@@ -22,17 +22,6 @@ $(document).ready(function(){
     });
 });
 
-function changeColor(){
-    var color = ["cadetblue", "darkgray", "ivory", "cornflowerblue"];
-
-    if (color.includes(document.getElementById('body').style.backgroundColor)) {
-        document.getElementById('body').style.backgroundColor = color[Math.floor(Math.random() * color.length)];
-
-    } else{
-        document.getElementById('body').style.backgroundColor = 'ivory';
-    }
-}
-
 
 isRunning = false
 function showMore(){
