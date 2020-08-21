@@ -449,7 +449,7 @@ h3{
 
 .tags .text .textBG{
     position: center;
-    filter: blur(4px);
+    filter: blur(8px);
     margin: 0 50px;
 }
 
